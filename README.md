@@ -25,8 +25,8 @@ For a static IP address on an Ethernet connection:`
 Type in the following lines on the top of the file (This only applies if the router address is 192.168.1.1, otherwise change accordingly):
 
 `1. interface eth0 static ip_address=192.168.1.XX/24`  
-`2.static routers=192.168.1.1`  
-`3.static domain_name_servers=192.168.1.1 8.8.8.8`  
+`2. static routers=192.168.1.1`  
+`3. static domain_name_servers=192.168.1.1 8.8.8.8`  
 `4. sudo reboot`  
 
 ## Setting up Sense Hat on Raspberry Pi
